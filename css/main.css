@@ -247,7 +247,7 @@ p {
 
 .page {
   display: none;
-  height: 77vh;
+  height: 83vh;
   border-style: solid;
   border-right-width: 1.5px;
   border-color: var(--bloo);
@@ -268,7 +268,7 @@ p {
 
 #home {
   width: 500px;
-  overflow-y: hidden;
+  overflow-y: visible;
 }
 
 #wall {
