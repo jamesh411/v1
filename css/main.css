@@ -199,7 +199,6 @@ p {
 }
 
 #bio {
-  font-size: 10px;
 }
 
 #navigation {
@@ -359,6 +358,10 @@ p {
   cursor: pointer;
 }
 
+#blurb {
+  text-align: right;
+}
+
 #about {
   width: 250px;
 }
@@ -385,7 +388,6 @@ p {
 
 #descrip {
   margin-top: 25px;
-  font-size: 10px;
 }
 
 #work {
