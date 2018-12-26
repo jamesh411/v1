@@ -288,16 +288,16 @@ p {
 }
 
 #polaroids {
-  width: 250px;
+  width: 270px;
   height: 40px;
-  top: 85px;
-  left: 90px;
+  top: 75px;
+  left: 80px;
 }
 
 #ethical {
   width: 50px;
   height: 80px;
-  top: 140px;
+  top: 130px;
   left: 80px;
 }
 
@@ -311,8 +311,15 @@ p {
 #skunk {
   width: 50px;
   height: 20px;
-  top: 145px;
-  left: 150px;
+  top: 120px;
+  left: 175px;
+}
+
+#comic {
+  width: 50px;
+  height: 20px;
+  top: 150px;
+  left: 145px;
 }
 
 #pic {
@@ -323,8 +330,8 @@ p {
 }
 
 #cal {
-  width: 45px;
-  height: 35px;
+  width: 35px;
+  height: 25px;
   top: 250px;
   left: 150px;
 }
@@ -332,14 +339,14 @@ p {
 #epi {
   width: 25px;
   height: 45px;
-  top: 160px;
+  top: 155px;
   left: 200px;
 }
 
 #map {
   width: 55px;
   height: 75px;
-  top: 150px;
+  top: 135px;
   left: 235px;
 }
 
