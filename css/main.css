@@ -71,6 +71,16 @@ p {
   background: var(--yello);
 }
 
+#cover {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  opacity: 0.6;
+  z-index: 100;
+}
+
 #layout {
   box-sizing: border-box;
   display: flex;
@@ -399,6 +409,7 @@ p {
 #descrip {
   margin-top: 20px;
   width: 190px;
+  margin-bottom: 20px;
 }
 
 #work {

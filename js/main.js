@@ -1,5 +1,34 @@
 $(document).ready(function() {
 
+  var image;
+
+  $('.popup').click(function(){
+      image = $(this).clone();
+      image.css("display", "none");
+      $("#layout").append(image);
+      if (image.width() > image.height()) {
+        image.css("width", "90vh");
+      }
+      else {
+        image.css("height", "90vh");
+      }
+      image.css({
+        "z-index": "1000",
+        "display": "block",
+        "position": "absolute",
+        "top": "50%",
+        "left": "50%",
+        "transform": "translate(-50%, -50%)"
+      });
+      $("#cover").css("display", 'none').fadeIn("slow");
+      image.css("display", 'none').fadeIn("slow");
+  });
+
+  $("#cover").click(function(){
+    $("#cover").css("display", 'block').fadeOut("slow");
+    image.css("display", 'block').fadeOut("slow").empty();
+  });
+
   $("#b-home").click(function(){
     $(".page").hide("slow");
     $("#home").show("slow");
