@@ -521,6 +521,20 @@ p {
   margin-top: 15px;
 }
 
+.extlink {
+  line-height: 1.1;
+  text-align: justify;
+  font-family: "Karla";
+  color: var(--gray);
+  font-size: 10px;
+}
+
+.extlink:hover {
+  transition-duration: 0.5s;
+  color: var(--yello) !important;
+  cursor: pointer;
+}
+
 .gridholder {
   width: 440px;
   border-style: solid;
