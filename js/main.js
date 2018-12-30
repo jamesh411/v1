@@ -7,10 +7,10 @@ $(document).ready(function() {
       image.css("display", "none");
       $("#layout").append(image);
       if (image.width() > image.height()) {
-        image.css("width", "90vh");
+        image.css("width", "50vw");
       }
       else {
-        image.css("height", "90vh");
+        image.css("height", "75vh");
       }
       image.css({
         "z-index": "1000",

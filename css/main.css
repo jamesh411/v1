@@ -224,6 +224,10 @@ p {
 
 .link {
   margin: 0px 8px 0px 8px;
+  text-decoration: none;
+  font-family: "Karla";
+  color: var(--gray);
+  font-size: 11px;
 }
 
 .link:hover {
@@ -410,6 +414,25 @@ p {
   margin-top: 20px;
   width: 190px;
   margin-bottom: 20px;
+}
+
+#contact {
+  width: 190px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: var(--bloo);
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Karla";
+  color: var(--gray);
+  font-size: 10px;
+  text-decoration: none;
 }
 
 #work {
