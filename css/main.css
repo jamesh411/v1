@@ -561,7 +561,7 @@ p {
   font-family: "Karla";
   color: var(--bloo);
   font-size: 10px;
-  text-decoration;
+  text-decoration: none;
 }
 
 .extlink:hover {
