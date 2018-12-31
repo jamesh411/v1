@@ -1,4 +1,4 @@
-/* BEGIN RESET
+/* RESET
    http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
    License: none (public domain)
 */
@@ -48,6 +48,8 @@ table {
 }
 
 /* END RESET */
+/*----------------------------------------------------------------------------*/
+/* BASIC LAYOUT */
 
 body {
   margin: 0;
@@ -87,6 +89,10 @@ p {
   flex-direction: row;
   padding: 30px;
 }
+
+/* END BASIC LAYOUT */
+/*----------------------------------------------------------------------------*/
+/* SIDEBAR */
 
 #sidebar {
   animation: slide 1.5s ease-in-out 0s 1;
@@ -236,8 +242,9 @@ p {
   cursor: pointer;
 }
 
-#content {
-}
+/* END SIDEBAR */
+/*----------------------------------------------------------------------------*/
+/* PAGE LAYOUT */
 
 .title {
   font-family: "Karla";
@@ -267,7 +274,11 @@ p {
   background: var(--bloo);
 }
 
-#home {
+/* END PAGE LAYOUT */
+/*----------------------------------------------------------------------------*/
+/* MY ROOM */
+
+#myroom {
   width: 440px;
   padding: 30px;
   border-right-width: 1.5px;
@@ -393,6 +404,10 @@ p {
   text-align: right;
 }
 
+/* END MY ROOM */
+/*----------------------------------------------------------------------------*/
+/* ABOUT */
+
 #about {
   width: 190px;
 }
@@ -434,6 +449,10 @@ p {
   font-size: 10px;
   text-decoration: none;
 }
+
+/* END ABOUT*/
+/*----------------------------------------------------------------------------*/
+/* WORK */
 
 #work {
   width: 440px;
@@ -512,6 +531,17 @@ p {
   transition: 1s ease-in-out;
 }
 
+/* END WORK */
+/*----------------------------------------------------------------------------*/
+/* WORK PAGE LAYOUT */
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 440px;
+}
+
 .back {
   font-family: "Karla";
   color: var(--gray);
@@ -522,13 +552,6 @@ p {
   transition-duration: 0.5s;
   color: var(--yello) !important;
   cursor: pointer;
-}
-
-#container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 440px;
 }
 
 .subtitle {
@@ -588,6 +611,10 @@ p {
   margin-left: -10px;
 }
 
+/* END WORK PAGE LAYOUT */
+/*----------------------------------------------------------------------------*/
+/* ETHICAL APPAREL */
+
 #ethicalapparel {
   width: 440px;
 }
@@ -634,6 +661,10 @@ p {
   margin-bottom: 10px;
 }
 
+/* END ETHICAL APPAREL */
+/*----------------------------------------------------------------------------*/
+/* WAKE PACK */
+
 #wake {
   width: 440px;
 }
@@ -649,6 +680,10 @@ p {
   margin: 0 auto;
   margin-top: 10px;
 }
+
+/* END WAKE PACK */
+/*----------------------------------------------------------------------------*/
+/* SPLOTCHES! */
 
 #splotches {
   width: 440px;
@@ -681,6 +716,10 @@ p {
   margin-bottom: 10px;
 }
 
+/* END SPLOTCHES! */
+/*----------------------------------------------------------------------------*/
+/* OLIVEJAM CO. */
+
 #olivejam {
   width: 440px;
 }
@@ -699,6 +738,10 @@ p {
   margin-bottom: 10px;
 }
 
+/* END OLIVEJAM CO. */
+/*----------------------------------------------------------------------------*/
+/* PARAGONED */
+
 #paragoned {
   width: 440px;
 }
@@ -716,6 +759,10 @@ p {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
+/* END PARAGONED */
+/*----------------------------------------------------------------------------*/
+/* MISCELLANEOUS */
 
 #misc {
   width: 440px;

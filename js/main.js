@@ -6,11 +6,21 @@ $(document).ready(function() {
       image = $(this).clone();
       image.css("display", "none");
       $("#layout").append(image);
-      if (image.width() > image.height()) {
-        image.css("width", "50vw");
+      if(window.innerHeight < window.innerWidth){
+        if (image.width() > image.height()) {
+          image.css("width", "50vw");
+        }
+        else{
+          image.css("height", "75vh");
+        }
       }
       else {
-        image.css("height", "75vh");
+        if(image.width() >= image.height()){
+          image.css("width", "80vw");
+        }
+        else{
+          image.css("height", "75vh");
+        }
       }
       image.css({
         "z-index": "1000",
@@ -29,18 +39,18 @@ $(document).ready(function() {
     image.css("display", 'block').fadeOut("slow").empty();
   });
 
-  $("#b-home").click(function(){
+  $("#b-myroom").click(function(){
     $(".page").hide("slow");
-    $("#home").show("slow");
+    $("#myroom").show("slow");
     $("#b-about").css("color", "#444444");
     $("#b-work").css("color", "#444444");
-    $("#b-home").css("color", "#8fb5bf");
+    $("#b-myroom").css("color", "#8fb5bf");
   });
 
   $("#b-about, #jam").click(function(){
     $(".page").hide("slow");
     $("#about").show("slow");
-    $("#b-home").css("color", "#444444");
+    $("#b-myroom").css("color", "#444444");
     $("#b-work").css("color", "#444444");
     $("#b-about").css("color", "#8fb5bf");
   });
@@ -48,7 +58,7 @@ $(document).ready(function() {
   $("#b-work, #backpack").click(function(){
     $(".page").hide("slow");
     $("#work").show("slow");
-    $("#b-home").css("color", "#444444");
+    $("#b-myroom").css("color", "#444444");
     $("#b-about").css("color", "#444444");
     $("#b-work").css("color", "#8fb5bf");
   });
