@@ -559,8 +559,9 @@ p {
   line-height: 1.1;
   text-align: justify;
   font-family: "Karla";
-  color: var(--gray);
+  color: var(--bloo);
   font-size: 10px;
+  text-decoration;
 }
 
 .extlink:hover {
