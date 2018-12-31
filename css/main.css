@@ -213,8 +213,12 @@ p {
   border-color: var(--bloo);
 }
 
-#bio {
+/*
+#hey {
+  background-color: var(--yello);
+  width: 100px;
 }
+*/
 
 #navigation {
   display: flex;
