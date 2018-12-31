@@ -399,6 +399,17 @@ p {
   cursor: pointer;
 }
 
+#directions {
+  float: right;
+  width: 160px;
+}
+
+#welcome {
+  margin-top: 10px;
+  text-align: right;
+  background-color: var(--yello);
+}
+
 #blurb {
   text-align: right;
 }
