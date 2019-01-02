@@ -103,8 +103,8 @@ p {
 }
 
 @keyframes slide {
-  from { left: -300px; }
-  to { left: 0px; }
+  from { left: -300px; opacity: 0; }
+  to { left: 0px; opacity: 1 }
 }
 
 #hua {
@@ -125,13 +125,19 @@ p {
 }
 
 #name2 {
+  animation: glow 100s reverse;
   position: absolute;
   margin: 0 auto;
-  margin-top: 28px;
-  margin-left: -2px;
+  margin-top: 27px;
+  margin-left: -3px;
   font-family: "Francois One";
   color: transparent;
   font-size: 50px;
+  -webkit-text-stroke: 1px var(--yello);
+  transition: 0.5s;
+}
+
+#name2:hover {
   -webkit-text-stroke: 1px var(--gray);
 }
 
@@ -213,12 +219,17 @@ p {
   border-color: var(--bloo);
 }
 
-/*
 #hey {
   background-color: var(--yello);
-  width: 100px;
+  font-family: "Francois One";
+  font-size: 13px;
+  width: 70px;
+  transition: 0.5s;
 }
-*/
+
+#hey:hover {
+  width: 167px;
+}
 
 #navigation {
   display: flex;
@@ -234,15 +245,19 @@ p {
 .link {
   margin: 0px 8px 0px 8px;
   text-decoration: none;
-  font-family: "Karla";
+  font-family: "Francois One";
   color: var(--gray);
   font-size: 11px;
+  transition: 0.5s;
 }
 
 .link:hover {
-  transition-duration: 0.5s;
   color: var(--yello) !important;
   cursor: pointer;
+}
+
+#b-myroom {
+  color: var(--bloo);
 }
 
 /* END SIDEBAR */
@@ -250,19 +265,25 @@ p {
 /* PAGE LAYOUT */
 
 .title {
-  font-family: "Karla";
+  font-family: "Francois One";
   color: var(--gray);
   font-size: 30px;
 }
 
 .page {
   display: none;
+  animation: visible 2s 1;
   height: 83vh;
   padding: 30px 36.5px 30px 30px;
   border-style: solid;
   border-right-width: 2px;
   border-color: var(--bloo);
   overflow-y: scroll;
+}
+
+@keyframes visible {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .page::-webkit-scrollbar {
@@ -282,6 +303,7 @@ p {
 /* MY ROOM */
 
 #myroom {
+  display: block;
   width: 440px;
   padding: 30px;
   border-right-width: 1.5px;
@@ -405,13 +427,20 @@ p {
 
 #directions {
   float: right;
-  width: 160px;
 }
 
 #welcome {
   margin-top: 10px;
   text-align: right;
+  font-family: "Francois One";
+  font-size: 13px;
+  width: 165px;
   background-color: var(--yello);
+  transition: 0.5s;
+}
+
+#welcome:hover {
+  width: 440px;
 }
 
 #blurb {
@@ -446,17 +475,29 @@ p {
 }
 
 #contact {
+  background-color: var(--yello);
+  font-family: "Francois One";
+  font-size: 13px;
+  width: 60px;
+  transition: 0.5s;
+}
+
+#contact:hover {
+  width: 190px;
+}
+
+#contactbox {
   width: 190px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 15px;
   border-style: solid;
   border-width: 1.5px;
   border-color: var(--bloo);
-  margin-top: 20px;
+  margin-top: 5px;
   text-align: center;
   font-family: "Karla";
   color: var(--gray);
@@ -557,7 +598,7 @@ p {
 }
 
 .back {
-  font-family: "Karla";
+  font-family: "Francois One";
   color: var(--gray);
   font-size: 20px;
 }
@@ -599,10 +640,10 @@ p {
   color: var(--bloo);
   font-size: 10px;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .extlink:hover {
-  transition-duration: 0.5s;
   color: var(--yello) !important;
   cursor: pointer;
 }

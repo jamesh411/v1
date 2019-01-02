@@ -42,24 +42,21 @@ $(document).ready(function() {
   $("#b-myroom").click(function(){
     $(".page").hide("slow");
     $("#myroom").show("slow");
-    $("#b-about").css("color", "#444444");
-    $("#b-work").css("color", "#444444");
+    $(".link").css("color", "#444444");
     $("#b-myroom").css("color", "#8fb5bf");
   });
 
   $("#b-about, #jam").click(function(){
     $(".page").hide("slow");
     $("#about").show("slow");
-    $("#b-myroom").css("color", "#444444");
-    $("#b-work").css("color", "#444444");
+    $(".link").css("color", "#444444");
     $("#b-about").css("color", "#8fb5bf");
   });
 
   $("#b-work, #backpack").click(function(){
     $(".page").hide("slow");
     $("#work").show("slow");
-    $("#b-myroom").css("color", "#444444");
-    $("#b-about").css("color", "#444444");
+    $(".link").css("color", "#444444");
     $("#b-work").css("color", "#8fb5bf");
   });
 
