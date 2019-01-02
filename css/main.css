@@ -216,7 +216,7 @@ p {
   padding: 25px;
   border-style: solid;
   border-width: 0px 1.5px 1.5px 1.5px;
-  border-color: var(--bloo);
+  border-color: var(--bloo);'
 }
 
 #hey {
@@ -308,6 +308,7 @@ p {
   padding: 30px;
   border-right-width: 1.5px;
   overflow-y: visible;
+  overflow-x: visible;
 }
 
 #wall {
@@ -601,10 +602,10 @@ p {
   font-family: "Francois One";
   color: var(--gray);
   font-size: 20px;
+  transition: 0.5s;
 }
 
 .back:hover {
-  transition-duration: 0.5s;
   color: var(--yello) !important;
   cursor: pointer;
 }
