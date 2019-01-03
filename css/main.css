@@ -265,10 +265,10 @@ p {
 /*----------------------------------------------------------------------------*/
 /* PAGE LAYOUT */
 
-.title {
+h2 {
   font-family: "Francois One";
   color: var(--gray);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .page {
@@ -297,6 +297,43 @@ p {
 
 .page::-webkit-scrollbar-thumb {
   background: var(--bloo);
+}
+
+.highlight {
+  width: 50px;
+  background-color: var(--yello);
+  white-space: nowrap;
+  line-height: 0px;
+  transition: 0.5s ease-in;
+  margin-top: 5px;
+}
+
+.small:hover {
+  width: 167px;
+}
+
+.medium:hover {
+  width: 190px;
+}
+
+.large {
+  width: 100px;
+  transition: 1s ease-in;
+}
+
+.large:hover {
+  width: 440px;
+}
+
+h5 {
+  display: inline-block;
+  font-family: "Francois One";
+  color: var(--gray);
+  font-size: 13px;
+  background-color: var(--yello);
+  line-height: 0px;
+  padding-right: 14px;
+  padding-bottom: 7px;
 }
 
 /* END PAGE LAYOUT */
@@ -438,7 +475,7 @@ p {
   font-size: 13px;
   width: 165px;
   background-color: var(--yello);
-  transition: 0.5s;
+  transition: 1s ease-in;
   line-height: 0px;
   padding-bottom: 7px;
 }
@@ -476,20 +513,6 @@ p {
   margin-top: 20px;
   width: 190px;
   margin-bottom: 20px;
-}
-
-#contact {
-  background-color: var(--yello);
-  font-family: "Francois One";
-  font-size: 13px;
-  width: 60px;
-  transition: 0.5s;
-  line-height: 0px;
-  padding-bottom: 7px;
-}
-
-#contact:hover {
-  width: 190px;
 }
 
 #contactbox {
@@ -556,7 +579,7 @@ p {
   opacity: 0.75;
 }
 
-.piece:hover .name {
+.piece:hover h3 {
   opacity: 1;
 }
 
@@ -581,7 +604,7 @@ p {
   background-color: var(--bloo);
 }
 
-.name {
+h3 {
   font-family: "Karla";
   color: #ffffff;
   font-size: 15px;
@@ -597,16 +620,16 @@ p {
 /*----------------------------------------------------------------------------*/
 /* WORK PAGE LAYOUT */
 
-#container {
+.container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 440px;
-  height: 20px;
-  margin-bottom: 20px;
+  height: 15px;
+  margin-bottom: 15px;
 }
 
-.back {
+h4 {
   font-family: "Francois One";
   color: var(--gray);
   font-size: 20px;
@@ -615,27 +638,14 @@ p {
   line-height: 0px;
 }
 
-.back:hover {
+h4:hover {
   background-color: var(--yello);
   padding-bottom: 5px;
   cursor: pointer;
 }
 
 .subtitle {
-  font-family: "Francois One";
-  color: var(--gray);
-  font-size: 20px;
-  background-color: var(--yello);
-  line-height: 0px;
-  padding-bottom: 10px;
-  width: 440px;
-}
-
-.subsubtitle {
-  font-family: "Karla";
-  color: var(--gray);
-  font-size: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .text {
@@ -643,8 +653,12 @@ p {
   width: 440px;
 }
 
-#opening {
-  margin-top: 15px;
+.opening {
+  margin-top: 10px;
+}
+
+.line {
+  margin-top: 5px;
 }
 
 .extlink {

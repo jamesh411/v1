@@ -90,7 +90,7 @@ $(document).ready(function() {
     $("#misc").show("slow");
   });
 
-  $(".back").click(function(){
+  $("h4").click(function(){
     $(".page").hide("slow");
     $("#work").show("slow");
   });
