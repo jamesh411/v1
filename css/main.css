@@ -175,18 +175,21 @@ p {
   width: 45px;
   top: 70px;
   left: 45px;
+  z-index: 10;
 }
 
 #tum {
   width: 50px;
   top: 95px;
-  left: 80px;
+  left: 82px;
+  z-index: 10;
 }
 
 #pothos {
   width: 90px;
   top: 0px;
   left: 135px;
+  z-index: 10;
 }
 
 #boxtop1 {
@@ -356,6 +359,13 @@ h5 {
 #room {
   width: 440px;
   margin-top: 10px;
+}
+
+#bottle {
+  width: 65px;
+  top: 260px;
+  left: -20px;
+  z-index: 20;
 }
 
 #taekwondo {
