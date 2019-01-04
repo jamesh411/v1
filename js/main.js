@@ -1,34 +1,5 @@
 $(document).ready(function() {
 
-  $( function() {
-    $("#bottle").draggable();
-  } );
-
-  $("#bottle").mousedown(function(){
-    $("#bottle").attr("src","img/spray.png");
-  });
-
-  $("#bottle").mouseup(function(){
-    $("#bottle").attr("src","img/bottle.png");
-  });
-
-  $( function() {
-    $("#avo").draggable();
-  } );
-
-  $( function() {
-    $("#tum").draggable();
-  } );
-
-  $( function() {
-    $("#pothos").draggable();
-  } );
-
-  $("#p-splotches").click(function(){
-    $(".page").hide("slow");
-    $("#splotches").show("slow");
-  });
-
   var image;
 
   $('.popup').click(function(){
@@ -123,5 +94,29 @@ $(document).ready(function() {
     $(".page").hide("slow");
     $("#work").show("slow");
   });
+
+  $( function() {
+    $("#bottle").draggable();
+  } );
+
+  $("#bottle").mousedown(function(){
+    $("#bottle").attr("src","img/spray.png");
+  });
+
+  $("#bottle").mouseup(function(){
+    $("#bottle").attr("src","img/bottle.png");
+  });
+
+  $( function() {
+    $("#avo").draggable();
+  } );
+
+  $( function() {
+    $("#tum").draggable();
+  } );
+
+  $( function() {
+    $("#pothos").draggable();
+  } );
 
 });
