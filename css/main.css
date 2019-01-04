@@ -366,6 +366,7 @@ h5 {
   top: 260px;
   left: -20px;
   z-index: 20;
+  animation: visible 1s 1;
 }
 
 #taekwondo {
