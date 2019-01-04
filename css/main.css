@@ -362,8 +362,8 @@ h5 {
 }
 
 #bottle {
-  width: 65px;
-  top: 260px;
+  width: 60px;
+  top: 262px;
   left: -20px;
   z-index: 20;
   animation: visible 1s 1;
