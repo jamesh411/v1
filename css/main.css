@@ -186,9 +186,9 @@ p {
 }
 
 #pothos {
-  width: 90px;
-  top: 0px;
-  left: 135px;
+  width: 80px;
+  top: 10px;
+  left: 145px;
   z-index: 10;
 }
 
