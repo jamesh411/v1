@@ -255,13 +255,14 @@ p {
 }
 
 .link:hover {
-  background-color: var(--yello);
-  padding-bottom: 7px;
+  background-color: var(--yello) !important;
+  padding-bottom: 7px !important;
   cursor: pointer;
 }
 
 #b-myroom {
-  color: var(--bloo);
+  background-color: var(--yello);
+  padding-bottom: 7px;
 }
 
 /* END SIDEBAR */

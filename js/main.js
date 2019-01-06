@@ -42,22 +42,40 @@ $(document).ready(function() {
   $("#b-myroom").click(function(){
     $(".page").hide("slow");
     $("#myroom").show("slow");
-    $(".link").css("color", "#444444");
-    $("#b-myroom").css("color", "#8fb5bf");
+    $(".link").css({
+      "background-color": "transparent",
+      "padding-bottom": "0px"
+    });
+    $("#b-myroom").css({
+      "background-color": "var(--yello)",
+      "padding-bottom": "7px"
+    });
   });
 
   $("#b-about, #jam").click(function(){
     $(".page").hide("slow");
     $("#about").show("slow");
-    $(".link").css("color", "#444444");
-    $("#b-about").css("color", "#8fb5bf");
+    $(".link").css({
+      "background-color": "transparent",
+      "padding-bottom": "0px"
+    });
+    $("#b-about").css({
+      "background-color": "var(--yello)",
+      "padding-bottom": "7px"
+    });
   });
 
   $("#b-work, #backpack").click(function(){
     $(".page").hide("slow");
     $("#work").show("slow");
-    $(".link").css("color", "#444444");
-    $("#b-work").css("color", "#8fb5bf");
+    $(".link").css({
+      "background-color": "transparent",
+      "padding-bottom": "0px"
+    });
+    $("#b-work").css({
+      "background-color": "var(--yello)",
+      "padding-bottom": "7px"
+    });
   });
 
   $("#p-ethical").click(function(){
