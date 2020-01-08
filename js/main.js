@@ -88,6 +88,11 @@ $(document).ready(function() {
     $("#innod").show("slow");
   });
 
+  $("#p-plantbrushfont").click(function(){
+    $(".page").hide("slow");
+    $("#plantbrushfont").show("slow");
+  });
+
   $("#p-thirtydays").click(function(){
     $(".page").hide("slow");
     $("#thirtydays").show("slow");

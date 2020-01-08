@@ -312,6 +312,8 @@ h2 {
   margin-top: 5px;
 }
 
+/*
+WEIRD HOVER EFFECTS FOR YELLOW HIGHLIGHTS
 .small:hover {
   width: 167px;
 }
@@ -328,6 +330,7 @@ h2 {
 .large:hover {
   width: 440px;
 }
+*/
 
 h5 {
   display: inline-block;
@@ -491,9 +494,11 @@ h5 {
   padding-bottom: 7px;
 }
 
+/*
 #welcome:hover {
   width: 440px;
 }
+*/
 
 #blurb {
   text-align: right;
@@ -778,6 +783,28 @@ h4:hover {
 }
 
 /* END INNOVATIVE DESIGN */
+/*----------------------------------------------------------------------------*/
+/* PLANTBRUSH FONT */
+
+#plantbrushfont {
+  width: 440px;
+}
+
+#gh-plantbrushfont {
+  height: 1220px;
+}
+
+#pg-plantbrushfont {
+  height: 1230px;
+}
+
+#pg-plantbrushfont > * {
+  width: 380px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* END PLANTBRUSH FONT */
 /*----------------------------------------------------------------------------*/
 /* THIRTY DAYS */
 
