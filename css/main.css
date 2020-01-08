@@ -67,8 +67,6 @@ p {
   line-height: 1.25;
   text-align: justify;
   font-family: var(--bodyfont);
-  font-weight: 600;
-  letter-spacing: 0.2px;
   color: var(--gray2);
   font-size: var(--bodyfontsize);
 }
