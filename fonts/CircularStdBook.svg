@@ -2,14 +2,14 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170731 at Thu Apr 11 17:37:47 2013
- By Aleksey,,,
+Created by FontForge 20190801 at Thu Apr 11 13:37:47 2013
+ By www-data
 Generated in 2013 by FontLab Studio. Copyright info pending.
 </metadata>
 <defs>
-<font id="CircularStd-Book" horiz-adv-x="560" >
+<font id="CircularStdBook" horiz-adv-x="560" >
   <font-face 
-    font-family="Circular Std Book"
+    font-family="CircularStdBook"
     font-weight="450"
     font-stretch="normal"
     units-per-em="1000"
@@ -20,7 +20,7 @@ Generated in 2013 by FontLab Studio. Copyright info pending.
     cap-height="709"
     bbox="-46 -232 1487 958"
     underline-thickness="80"
-    underline-position="-355"
+    underline-position="-195"
     unicode-range="U+000D-FEFF"
   />
 <missing-glyph horiz-adv-x="562" 
