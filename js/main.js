@@ -83,6 +83,16 @@ $(document).ready(function() {
     $("#ethicalapparel").show("slow");
   });
 
+  $("#p-innod").click(function(){
+    $(".page").hide("slow");
+    $("#innod").show("slow");
+  });
+
+  $("#p-thirtydays").click(function(){
+    $(".page").hide("slow");
+    $("#thirtydays").show("slow");
+  });
+
   $("#p-wake").click(function(){
     $(".page").hide("slow");
     $("#wake").show("slow");

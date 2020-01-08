@@ -714,11 +714,11 @@ h4:hover {
 }
 
 #gh-line {
-  height: 580px;
+  height: 775px;
 }
 
 #pg-line {
-  height: 590px;
+  height: 785px;
 }
 
 #pg-line > * {
@@ -728,11 +728,11 @@ h4:hover {
 }
 
 #gh-marketing {
-  height: 360px;
+  height: 810px;
 }
 
 #pg-marketing {
-  height: 370px;
+  height: 820px;
 }
 
 #pg-marketing > * {
@@ -756,6 +756,50 @@ h4:hover {
 }
 
 /* END ETHICAL APPAREL */
+/*----------------------------------------------------------------------------*/
+/* INNOVATIVE DESIGN */
+
+#innod {
+  width: 440px;
+}
+
+#gh-innod {
+  height: 550px;
+}
+
+#pg-innod {
+  height: 560px;
+}
+
+#pg-innod > * {
+  width: 185px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* END INNOVATIVE DESIGN */
+/*----------------------------------------------------------------------------*/
+/* THIRTY DAYS */
+
+#thirtydays {
+  width: 440px;
+}
+
+#gh-thirtydays {
+  height: 1355px;
+}
+
+#pg-thirtydays {
+  height: 1365px;
+}
+
+#pg-thirtydays > * {
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* END 30 DAYS */
 /*----------------------------------------------------------------------------*/
 /* WAKE PACK */
 
