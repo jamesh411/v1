@@ -51,20 +51,12 @@ table {
 /*----------------------------------------------------------------------------*/
 /* BASIC LAYOUT */
 
-@font-face {
-    font-family: 'Circular Std Book';
-    src: url('fonts/CircularStdBook.eot');
-    src: url('fonts/CircularStdBook.eot') format('embedded-opentype'),
-         url('fonts/CircularStdBook.woff2') format('woff2'),
-         url('fonts/CircularStdBook.woff') format('woff'),
-         url('fonts/CircularStdBook.ttf') format('truetype'),
-         url('fonts/CircularStdBook.svg#CircularStdBook') format('svg');
-}
-
 body {
   margin: 0;
   font-family: 'Francois One', sans-serif;
-  font-family: "Karla", sans-serif;
+  --bodyfont: "GlacialIndifferenceRegular";
+  --bodyfontsize: 10.5px;
+  font-family: var(--bodyfont), sans-serif;
   --bloo: #8fb5bf;
   --gray: #444444;
   --gray2: #555555;
@@ -74,10 +66,11 @@ body {
 p {
   line-height: 1.2;
   text-align: justify;
-  font-family: "karla";
-  letter-spacing: 0.025em;
+  font-family: var(--bodyfont);
+  font-weight: 600;
+  letter-spacing: 0.03em;
   color: var(--gray2);
-  font-size: 10px;
+  font-size: var(--bodyfontsize);
 }
 
 ::selection {
@@ -498,6 +491,7 @@ h5 {
   margin-top: 10px;
   text-align: right;
   font-family: "Francois One";
+  color: var(--gray);
   font-size: 13px;
   width: 165px;
   background-color: var(--yello);
@@ -557,9 +551,9 @@ h5 {
   border-color: var(--bloo);
   margin-top: 5px;
   text-align: center;
-  font-family: "karla";
+  font-family: var(--bodyfont);
   color: var(--gray);
-  font-size: 10px;
+  font-size: var(--bodyfontsize);
   text-decoration: none;
 }
 
@@ -677,7 +671,7 @@ h4:hover {
 }
 
 .text {
-  font-size: 10px;
+  font-size: var(--bodyfontsize);
   width: 440px;
 }
 
@@ -692,9 +686,9 @@ h4:hover {
 .extlink {
   line-height: 1.1;
   text-align: justify;
-  font-family: "karla";
+  font-family: var(--bodyfont);
   color: var(--bloo);
-  font-size: 10px;
+  font-size: var(--bodyfontsize);
   text-decoration: none;
   transition: 0.5s;
 }
