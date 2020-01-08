@@ -55,7 +55,7 @@ body {
   margin: 0;
   font-family: 'Francois One', sans-serif;
   --bodyfont: "GlacialIndifferenceRegular";
-  --bodyfontsize: 10.5px;
+  --bodyfontsize: 0.675em;
   font-family: var(--bodyfont), sans-serif;
   --bloo: #8fb5bf;
   --gray: #444444;
@@ -71,6 +71,12 @@ p {
   letter-spacing: 0.25px;
   color: var(--gray2);
   font-size: var(--bodyfontsize);
+}
+
+.dash {
+  line-height: 0.75;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 ::selection {
@@ -688,7 +694,6 @@ h4:hover {
   text-align: justify;
   font-family: var(--bodyfont);
   color: var(--bloo);
-  font-size: var(--bodyfontsize);
   text-decoration: none;
   transition: 0.5s;
 }
